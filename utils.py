@@ -47,8 +47,8 @@ def get_segments(image):
     '''
     Segment Image into 4 quadrants for better analysis
     '''
-    width = image.shape[0]
-    height = image.shape[1]
+    width = image.shape[1]
+    height = image.shape[0]
 
     xsize = (width // 2)
     ysize = (height // 2)
